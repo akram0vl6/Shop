@@ -1,0 +1,47 @@
+.order-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .order-item p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .order-item .item-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-item .item-details p:last-of-type {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .order-item .item-actions {
+    margin-left: auto;
+  }
+  
+  .order-item .item-actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .order-item .item-actions button:hover {
+    background-color: #0056b3;
+  }
+  

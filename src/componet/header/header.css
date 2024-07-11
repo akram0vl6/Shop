@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-mein {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1120px;
+    padding: 0 20px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-menu p {
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.header-logo img {
+    max-height: 50px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-icons svg {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.header-icons svg:hover {
+    color: #007bff;
+}
+
+.header-icons .shop.active,
+.header-icons .shop:hover {
+    color: red;
+}
+.shop-cart {
+    position: absolute;
+    top: 83px;
+    right: 0px;
+    width: 450px; /* Ширина контейнера корзины */
+    min-width: 100px; /* Минимальная ширина контейнера корзины */
+    background: #fafafa;
+    box-shadow: 4px 5px 15px -7px #606060;
+    z-index: 999;
+    padding: 20px; /* Добавляем внутренние отступы */
+    overflow: auto; /* Если контент внутри будет выходить за рамки, добавим прокрутку */
+}
+.shop-cart .itme {
+    width: 100%;
+}
+.shop-cart .itme img{
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}

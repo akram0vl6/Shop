@@ -1,0 +1,26 @@
+/* Catagories.css */
+
+.categories  {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .categories-1, .categories-2, .categories-3 {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .categories-1:hover, .categories-2:hover, .categories-3:hover {
+    color: #007bff;
+  }
+  

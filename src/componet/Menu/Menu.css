@@ -1,0 +1,46 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* начальное положение за пределами экрана */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s ease; /* анимация изменения положения */
+    z-index: 999;
+  }
+  
+  .menu.open {
+    left: 0; /* меню появляется при открытии */
+  }
+  
+  .menu-toggle {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #555;
+  }
+.ixt{
+    float: right;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: aliceblue;
+}  

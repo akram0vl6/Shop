@@ -1,0 +1,81 @@
+.contact {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 10px;
+    width: 220px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 7px;
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: 0.3s;
+    display: none;
+    z-index: 99;
+  }
+
+.contact.open {
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+.contact .nomer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.nomer-icon{
+    margin-top: 10px;
+}
+.nomer li{
+    list-style-type: none;
+    color: black;
+
+}
+.nomer li:hover{
+    background-color: #fff;
+    color: black;
+}
+.contact .gmail{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.gmail-icon{
+    margin-top: 10px;
+    font-size: 100px;
+
+}
+.gmail li{
+    list-style-type: none;
+    color: black;
+
+}
+.gmail li:hover{
+    background-color: #fff;
+    color: black;
+}
+.contact .insta{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.insta-icon{
+    font-size: 100px;
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+}
+.insta li{
+    list-style-type: none;
+    color: black;
+
+}
+.insta li:hover{
+    background-color: #fff;
+    color: black;
+}
